@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SeaKidsGlobalSolution</string>
+    <string name="digite_o_cep">Digite o CEP</string>
+    <string name="buscar">Buscar</string>
+    <string name="resultado_aparecer_aqui">Resultado aparecerá aqui</string>
+    <string name="button" />
+    <string name="j_possui_cadastro" />
+    <string name="login" />
+    <string name="cadastrar" />
+    <string name="buscar_cep">Buscar CEP</string>
+</resources>

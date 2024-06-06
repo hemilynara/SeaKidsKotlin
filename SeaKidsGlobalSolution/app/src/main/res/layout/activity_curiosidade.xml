@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/main"
+tools:context=".views.CuriosidadeActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#a1d4ff"
+    android:gravity="center"
+    tools:context=".CuriosidadeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/curiosidades"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:maxHeight="200dp"
+        android:contentDescription="Imagem de correntes oceânicas"
+        android:paddingBottom="8dp" />
+
+    <!-- Seção 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viajantes do Oceano:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/maritima"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem de correntes oceânicas"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As correntes oceânicas transportam não apenas água, mas também vida marinha ao redor do mundo. Até mesmo pequenos resíduos podem viajar grandes distâncias e afetar ecossistemas distantes."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Seção 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casa de Diversidade:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/peixe"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem de peixes"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os oceanos abrigam mais de 200.000 espécies conhecidas, mas os cientistas acreditam que existam milhões de outras ainda não descobertas. É como um mundo submarino cheio de vida!"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Seção 3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulmões do Planeta:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/oceano"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem de algas marinhas"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As algas marinhas produzem mais oxigênio do que todas as florestas do mundo juntas. Elas são essenciais para a vida na Terra, fornecendo oxigênio e absorvendo dióxido de carbono."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Seção 4 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mar Profundo, Grande Mistério:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/polvo"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem do mar profundo"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mais de 80% dos oceanos ainda não foram explorados ou mapeados. Quem sabe que criaturas incríveis podem estar escondidas nas profundezas?"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Seção 5 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade Submersa:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/coral"
+        android:scaleType="centerCrop"
+        android:contentDescription="Imagem de recifes de coral"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os recifes de coral são como cidades subaquáticas, abrigando uma enorme variedade de peixes, plantas e outros animais marinhos. Eles são fundamentais para a saúde dos oceanos, mas estão sob ameaça devido à poluição e às mudanças climáticas."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
+</ScrollView>

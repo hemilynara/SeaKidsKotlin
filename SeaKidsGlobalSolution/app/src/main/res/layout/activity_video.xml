@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#a1d4ff"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/video"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxHeight="150dp"
+            android:contentDescription="Imagem de correntes oceânicas"
+            android:paddingBottom="8dp" />
+
+        <!-- Seção 1: OCEANOS ESTÃO EM PERIGO -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Imagem representativa dos perigos enfrentados pelos oceanos"
+            android:maxHeight="200dp"
+            android:paddingBottom="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/oceanoperigo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCEANOS ESTÃO EM PERIGO"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assista ao vídeo: OCEANOS ESTÃO EM PERIGO"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/link1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.youtube.com/watch?v=HLKWoXqyUX4"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="16dp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp" /> <!-- Altura para criar espaço -->
+
+        <!-- Seção 2: OCEANOS PARA CRIANÇAS -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/geografia"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:contentDescription="Imagem representativa da geografia dos oceanos"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCEANOS PARA CRIANÇAS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assista ao vídeo: OCEANOS PARA CRIANÇAS"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/link2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.youtube.com/watch?v=LaPhmHNilCA"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="16dp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="16dp" /> <!-- Altura para criar espaço -->
+
+        <!-- Seção 3: O OCEANO E SUAS CURIOSIDADES -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/curiosidadesoceano"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:contentDescription="Imagem representativa das curiosidades dos oceanos"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O OCEANO E SUAS CURIOSIDADES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:paddingBottom="8dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="Assista ao vídeo: O OCEANO E SUAS CURIOSIDADES"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/link3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https://www.youtube.com/watch?v=qL1uhmLYyis"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:paddingBottom="16dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
+
